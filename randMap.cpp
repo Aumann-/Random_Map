@@ -15,7 +15,7 @@ using namespace std;
 //prototypes
 void initMap();
 void drawMap();
-int nextSpot();
+void nextSpot();
 void walk();
 
 
@@ -88,7 +88,7 @@ void drawMap()
 }
 
 //function to choose next spot (used if picking random spots form entire map)
-int nextSpot()
+void nextSpot()
 {
 	int row = rand() % ROWS;
 	int col = rand() % COLUMNS;
