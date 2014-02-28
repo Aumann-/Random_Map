@@ -1,0 +1,1 @@
+This is a C++ for random walks on a 2D array. Program can either walk in a cardinal directions from the origin point for the alternate code can be used to fill the entire map at random points.
